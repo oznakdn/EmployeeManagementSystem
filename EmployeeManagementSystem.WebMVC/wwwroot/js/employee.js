@@ -92,7 +92,7 @@ function GetById(Id) {
             $("#txtPhotoUrl").val(result.photoUrl);
             $("#txtGender").val(result.gender);
             $("#txtDepartment").val(result.department);
-            $("#StartDate").val(result.startDate);
+            $("#txtStartDate").val(result.startDate);
 
             $("#employeeModal").modal('show');
             $("#btnUpdate").show();
