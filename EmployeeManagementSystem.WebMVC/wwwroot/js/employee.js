@@ -53,7 +53,7 @@ function Add() {
         photoUrl: $("#txtPhotoUrl").val(),
         gender: $("#txtGender").val(),
         department: $("#txtDepartment").val(),
-        startDate: $("#StartDate").val()
+        startDate: $("#txtStartDate").val()
     };
 
     $.ajax({
@@ -180,7 +180,7 @@ function ClearInputs() {
     $("#txtPhotoUrl").val("");
     $("#txtGender").val("");
     $("#txtDepartment").val("");
-    $("#StartDate").val("");
+    $("#txtStartDate").val("");
 
     $("#btnUpdate").hide();
     $("#btnAdd").show();
@@ -190,7 +190,7 @@ function ClearInputs() {
     $("#txtPhotoUrl").css("border-color", "lightgrey");
     $("#txtGender").css("border-color", "lightgrey");
     $("#txtDepartment").css("border-color", "lightgrey");
-    $("#StartDate").css("border-color", "lightgrey");
+    $("#txtStartDate").css("border-color", "lightgrey");
 }
 
 // For Validation
